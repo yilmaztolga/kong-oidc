@@ -29,6 +29,7 @@ end
 
 function handle(oidcConfig)
   local response
+  ngx.log(ngx.DEBUG, "oidcConfig: " .. oidcConfig)
   if oidcConfig.introspection_endpoint then
     response = introspect(oidcConfig)
     if response then
