@@ -1,7 +1,7 @@
 package = "kong-oidc"
 version = "1.0.4-0"
 source = {
-    url = "git://github.com/nokia/kong-oidc",
+    url = "git://github.com/yilmaztolga/kong-oidc",
     tag = "v1.0.4",
     dir = "kong-oidc"
 }
